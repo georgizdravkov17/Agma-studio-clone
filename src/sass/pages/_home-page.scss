@@ -1,0 +1,45 @@
+.home{
+ 
+    &__services {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 1rem;
+       justify-items: center;
+       margin: 1rem;
+     }
+
+
+    &__projects{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+      justify-items: center;
+      margin: 1rem;
+    }
+    &__contacts{
+        height: 100vh;
+        // background-image: url("../../images/contact-from-bg.jpg");
+    }
+
+    &__clients{
+      display: flex;
+      grid-gap: 1rem;
+      justify-content: center;
+    }
+
+    &__staff{
+      display: flex;
+      justify-content: center;
+      grid-gap: 1rem;
+      margin-bottom: 1rem;
+
+    }
+
+    &__contact-cards{
+      display: flex;
+      justify-content: center;
+      grid-gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+}

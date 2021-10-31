@@ -6,6 +6,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import Switch from '@mui/material/Switch';
 
 const Header = () => {
   return(
@@ -29,11 +30,13 @@ const Header = () => {
                </div>
 
                <SocialMedia />
+               <Switch />
+               
 
           </div>
 
           <div className="header__item header__nav">
-             <Link to="/"><h1><ArrowBackIosIcon /> АГМА СТУДИО <ArrowForwardIosIcon/></h1></Link>
+             <Link to="/"><h1 className="heading"><ArrowBackIosIcon /> АГМА СТУДИО <ArrowForwardIosIcon/></h1></Link>
              <nav>
                  <ul className="header__list">
                      <li className="item">

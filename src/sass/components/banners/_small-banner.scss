@@ -1,0 +1,12 @@
+.small-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: #085C88;
+
+    &:hover{
+        background-color: #00A5FF;
+    }
+}

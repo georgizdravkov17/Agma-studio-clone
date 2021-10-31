@@ -1,0 +1,26 @@
+.partners-banner{
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    // background-image: url("../../../images/partners-bg.jpg");
+
+    &__headings{
+      width: 30%;
+    }
+
+    &__imgs{
+      width: 70%;  
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      
+    }
+
+    &__item > *{
+      margin: 1rem;
+    }
+
+    
+}

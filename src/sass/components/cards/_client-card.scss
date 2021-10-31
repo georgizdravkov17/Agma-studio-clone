@@ -1,0 +1,39 @@
+.client-card{
+    display: flex;
+    width: 45vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    opacity: 0.7;
+
+    .info{
+        width: 25%;
+        text-align: center;
+        img{
+            border-radius:50% ;
+
+            &:hover{
+                border: 2px solid goldenrod;
+            }
+        }
+        h4, h5{
+            font-style: italic;
+        }
+    }
+    .feedback{
+        width: 75%;
+
+        p{
+            font-style: italic;
+        }
+    }
+
+    .item > *{
+       margin: 0.5rem;
+    }
+
+    &:hover{
+        border: 2px solid goldenrod;
+    }
+}

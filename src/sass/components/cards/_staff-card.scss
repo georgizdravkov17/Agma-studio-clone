@@ -1,0 +1,27 @@
+.staff-card{
+    height: 45vh;
+    width: 21vw;
+
+    &__info{
+       height: 15%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #222222;
+
+       h3{
+           font-style: italic;
+       }
+    }
+
+    &__img{
+       height: 85%;
+    }
+
+    &:hover{
+        .staff-card__info{
+            background-color: #00A5FF;
+            cursor: pointer;
+        }
+    }
+}

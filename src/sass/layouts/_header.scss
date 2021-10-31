@@ -1,3 +1,39 @@
 .header{
-    background-color: #222222;
+
+    &__info{
+        background-color: #222222;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .item{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__nav{
+        background-color: #333333;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading{
+            color: aqua;
+        }
+    }
+
+    &__list{
+        display: flex;
+
+        .item{
+            margin: 0 0.6rem;
+            border-bottom: 2px solid goldenrod;
+            
+        }
+    }
+    &__item{
+        display: flex;
+        padding: 0 0.5rem;
+
+    }
+
 }
