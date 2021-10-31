@@ -1,8 +1,11 @@
 import React from 'react';
+import ContactForm from '../auth-components/ContactForm';
 
 const Contacts = () => {
   return(
-      <div className="contacts">This is Contacts Page!</div>
+      <div className="contacts">
+          <ContactForm />
+      </div>
   );
 }
 

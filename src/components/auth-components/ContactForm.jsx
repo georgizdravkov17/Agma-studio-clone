@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 const ContactForm = () => {
 
@@ -22,10 +24,11 @@ const ContactForm = () => {
 
   return(
       <form onSubmit={onSubmit}>
-          <input type="email" id="email" name="email" placeholder="Email" onChange={onInputChange} />
-          <input type="email" id="email" name="email" placeholder="Email" onChange={onInputChange} />
-          <input type="email" id="email" name="email" placeholder="Email" onChange={onInputChange} />
-          <button className="btn" type="submit">Send</button>
+          <TextField variant="outlined" required label="First name" name="firstName" onChange={onInputChange} />
+          <TextField variant="outlined" required label="Last name" name="lastName" onChange={onInputChange} />
+          <TextField variant="outlined" required label="Email" name="email" onChange={onInputChange} />
+          <TextField variant="outlined" required label="Password" name="password" onChange={onInputChange} />
+          <Button variant="contained" size="large" color="secondary">Send</Button>
       </form>
   );
 }

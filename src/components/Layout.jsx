@@ -6,6 +6,8 @@ import Services from './layout-components/Services';
 import About from './layout-components/About';
 import Contacts from './layout-components/Contacts';
 import NotFoundPage from './layout-components/NotFoundPage';
+import Header from './layout-components/Header';
+import Footer from './layout-components/Footer';
 
 const Layout = () => {
   return(
