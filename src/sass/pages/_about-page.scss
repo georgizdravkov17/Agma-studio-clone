@@ -1,0 +1,26 @@
+.about{
+
+    &__staff{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem ;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    &__services{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        justify-content: center;
+        padding: 5rem;
+    }
+
+    &__headings{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

@@ -1,7 +1,8 @@
 body{
     background-color: #333333;
-    color: white;
+    color: #aaa;
     font-size: 14px;
+    overflow-x: hidden;
 
 }
 
@@ -16,11 +17,11 @@ img{
 }
 
 .active {
-
+   color: #00A5FF;
 }
 
 .aqua-color{
-    color: aqua;
+    color: #00A5FF;
 }
 
 .black-color{

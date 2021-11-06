@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import SocialMedia from '../common-components/SocialMedia';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import { linkClasses } from '@mui/material';
 
 const Footer = () => {
   return(
@@ -13,27 +14,27 @@ const Footer = () => {
                    <ul className="list">
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Уеб дизайн услуги</NavLink>
+                           <Link to="#">Уеб дизайн услуги</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Изработка на сайт</NavLink>
+                           <Link to="#">Изработка на сайт</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Изработка на онлайн магазин</NavLink>
+                           <Link to="#">Изработка на онлайн магазин</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Изработка на Wordpress сайт</NavLink>
+                           <Link to="#">Изработка на Wordpress сайт</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Поддръжка на уеб сайт</NavLink>
+                           <Link to="#">Поддръжка на уеб сайт</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Дигитален маркетинг</NavLink>
+                           <Link to="#">Дигитален маркетинг</Link>
                        </li>
                    </ul>
                </div>
@@ -43,27 +44,27 @@ const Footer = () => {
                    <ul className="list">
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">KWIAT България</NavLink>
+                           <Link to="#">KWIAT България</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Пекарната на Еди</NavLink>
+                           <Link to="#">Пекарната на Еди</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Сайт строителен магазин</NavLink>
+                           <Link to="#">Сайт строителен магазин</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Отвъд различията</NavLink>
+                           <Link to="#">Отвъд различията</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">СЛРБ България</NavLink>
+                           <Link to="#">СЛРБ България</Link>
                        </li>
                        <li className="list__item">
                            <KeyboardArrowRightIcon />
-                           <NavLink to="#" activeClassName="active">Винетни и пътни такси</NavLink>
+                           <Link to="#">Винетни и пътни такси</Link>
                        </li>
                    </ul>
                </div>

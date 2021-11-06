@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { makeStyles } from '@mui/styles';
+
 const useStyles = makeStyles({
    icon: {
      backgroundColor: "black",
@@ -25,7 +26,7 @@ const SocialMedia = () => {
 
   return(
       <div className="social-media">
-          <Link to="#"><FacebookIcon className={classes.icon} /></Link>
+          <Link to="#"><FacebookIcon className={classes.icon}  /></Link>
           <Link to="#"><LinkedInIcon className={classes.icon}  /></Link>
           <Link to="#"><InstagramIcon className={classes.icon}  /></Link>
           <Link to="#"><TwitterIcon className={classes.icon}  /></Link>

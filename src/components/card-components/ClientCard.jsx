@@ -1,9 +1,18 @@
 import React from 'react';
 import img from '../../images/client-1.jpeg';
+import { motion } from 'framer-motion';
 
 const ClientCard = (props) => {
   return(
-      <div className="client-card box-shadow">
+      <motion.div 
+      whileHover={{
+        scale: 1.1
+        
+      }}
+      transition={{
+        duration: 0.5
+      }}
+       className="client-card box-shadow">
 
           <div className="item info">
              <div className="img">
@@ -25,7 +34,7 @@ const ClientCard = (props) => {
              </p>
           </div>
 
-      </div>
+      </motion.div>
   );
 }
 

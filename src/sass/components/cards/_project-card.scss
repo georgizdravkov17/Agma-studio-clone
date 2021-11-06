@@ -13,13 +13,4 @@
         justify-content: center;
     }
 
-    &:hover{
-        border: 2px solid goldenrod;
-        cursor: pointer;
-
-        .project-card__title{
-            background-color: #00A5FF;
-            cursor: pointer;
-        }
-    }
 }

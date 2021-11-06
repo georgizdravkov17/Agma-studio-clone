@@ -36,7 +36,7 @@ const Header = () => {
           </div>
 
           <div className="header__item header__nav">
-             <Link to="/"><h1 className="heading"><ArrowBackIosIcon /> АГМА СТУДИО <ArrowForwardIosIcon/></h1></Link>
+             <Link to="/"><h1 className="heading"><ArrowBackIosIcon className="aqua-color" /> АГМА СТУДИО <span className="aqua-color">/</span><ArrowForwardIosIcon className="aqua-color"/></h1></Link>
              <nav>
                  <ul className="header__list">
                      <li className="item">

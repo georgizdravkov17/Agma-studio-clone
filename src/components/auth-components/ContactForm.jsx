@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import {  makeStyles } from '@mui/styles';
 import SendIcon from '@mui/icons-material/Send';
+import { motion } from 'framer-motion';
 
 const useStyles = makeStyles({
     input: {
@@ -43,8 +44,17 @@ const ContactForm = () => {
     }
 
   return(
-      <form className="form box-shadow" onSubmit={onSubmit}>
-          <h4>ВРЪЗКА С НАС</h4>
+      <motion.form 
+      whileHover={{
+          scale: 1.05
+      }}
+      transition={{
+          duration: 0.4
+      }}
+      className="form box-shadow" 
+      onSubmit={onSubmit}
+      >
+          <h4 className="aqua-color">ВРЪЗКА С НАС</h4>
           <h1>Имате идея? Да поговорим за нея.</h1>
           <TextField className={classes.input} variant="outlined" required label="First name" name="firstName" onChange={onInputChange} />
           <TextField className={classes.input}  variant="outlined" required label="Last name" name="lastName" onChange={onInputChange} />
@@ -53,7 +63,7 @@ const ContactForm = () => {
           <Button className={classes.btn} variant="contained" startIcon={<SendIcon />} size="large" color="secondary">
               Send
             </Button>
-      </form>
+      </motion.form>
   );
 }
 

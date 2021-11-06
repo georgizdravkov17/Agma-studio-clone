@@ -2,22 +2,50 @@
  
     &__services {
        display: grid;
-       grid-template-columns: repeat(3, 1fr);
+       grid-template-columns: repeat(4, 1fr);
        grid-gap: 1rem;
        justify-items: center;
        margin: 1rem;
+
+       .heading{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         padding: 1rem;
+
+         h1{
+           font-size: 2.5rem;
+         }
+       }
      }
 
 
     &__projects{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 1rem;
-      justify-items: center;
-      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      .headings{
+        padding: 4rem;
+        text-align: center;
+         h1{
+           font-size: 2.5rem;
+         }
+      }
+       .projects{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1rem;
+            justify-items: center;
+            margin: 1rem;
+       }
     }
     &__contacts{
         height: 100vh;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 2rem;
+        background-position: center;
+        background-size: cover;
         // background-image: url("../../images/contact-from-bg.jpg");
     }
 
@@ -25,15 +53,10 @@
       display: flex;
       grid-gap: 1rem;
       justify-content: center;
+      height: 60vh;
+      align-items: center;
     }
 
-    &__staff{
-      display: flex;
-      justify-content: center;
-      grid-gap: 1rem;
-      margin-bottom: 1rem;
-
-    }
 
     &__contact-cards{
       display: flex;
